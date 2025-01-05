@@ -13,7 +13,6 @@ body {
     display: flex;
     flex-flow: row wrap;
     height: 10vh;
-    /* background: #15803d; */
     flex-direction: row;
     align-items: center;
     justify-content: center;
@@ -21,17 +20,17 @@ body {
 
 .logo {
     flex: 20vw;
-    text-align: center;
+    text-align: left;
     margin-left: 10vw;
-    
+
     /* border: 1px solid #ff0000; */
 }
 
-.logo h1{
+.logo h1 {
     font-family: "Lobster", serif;
     font-size: 34px;
     color: #180f4a;
-    
+
 }
 
 .menu {
@@ -39,11 +38,11 @@ body {
     text-align: right;
     padding: 20px;
 
-    
+
     /* border: 1px solid #ff0000; */
 }
 
-.menu a{
+.menu a {
     color: #180f4a;
     text-decoration: none;
     font-size: 20px;
@@ -51,7 +50,7 @@ body {
 
 }
 
-.menu a:hover{
+.menu a:hover {
     color: #ff2978;
     border-top: 4px solid #180f4a;
 }
@@ -68,5 +67,67 @@ body {
 #contact:hover {
     border: none;
     background-color: #ff2978;
-    
+
+}
+
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+
+    /* background: gray; */
+}
+
+.headeline {
+    margin-left: 10vw;
+    flex: 40vw;
+
+    /* border: 1px solid #000000; */
+}
+
+.headeline h2 {
+    font-weight: 900;
+    font-size: 80px;
+    margin: 0;
+    color: #180f4a;
+
+}
+
+h2#letter-spacing {
+    letter-spacing: 15px;
+    font-size: 20px;
+}
+
+.img-headeline {
+    margin-right: 10vw;
+    flex: 40vw;
+
+
+    /* border: 1px solid #000000; */
+}
+
+.img-headeline img {
+    max-width: 90%;
+}
+
+.headeline p {
+    color: #808080;
+    text-align: left;
+}
+
+.contact-btn {
+    display: inline-block;
+    padding: 15px 25px;
+    background-color: #ff2978;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 15px;
+    color: #fff;
+}
+
+.contact-btn:hover {
+    background-color: #180f4a;
 }
