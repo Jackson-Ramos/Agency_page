@@ -12,16 +12,19 @@ body {
 .navbar {
     display: flex;
     flex-flow: row wrap;
-    height: 10vh;
+    height: 100px;
+    background: white;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    position: fixed;
+    width: 100%;
 }
 
 .logo {
-    flex: 20vw;
+    flex: 20%;
     text-align: left;
-    margin-left: 10vw;
+    margin-left: 10%;
 
     /* border: 1px solid #ff0000; */
 }
@@ -34,7 +37,7 @@ body {
 }
 
 .menu {
-    flex: 70vw;
+    flex: 70%;
     text-align: right;
     padding: 20px;
 
@@ -75,13 +78,15 @@ body {
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
+    background: white;
+    padding-top: 100px;
 
     /* background: gray; */
 }
 
 .headeline {
-    margin-left: 10vw;
-    flex: 40vw;
+    margin-left: 10%;
+    flex: 40%;
 
     /* border: 1px solid #000000; */
 }
@@ -100,8 +105,8 @@ h2#letter-spacing {
 }
 
 .img-headeline {
-    margin-right: 10vw;
-    flex: 40vw;
+    margin-right: 10%;
+    flex: 40%;
 
 
     /* border: 1px solid #000000; */
@@ -130,4 +135,67 @@ h2#letter-spacing {
 
 .contact-btn:hover {
     background-color: #180f4a;
+}
+
+section {
+    display: inline-block;
+    margin-top: 80px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    padding: 5%;
+    height: auto;
+    width: 90%;
+
+    /* border: 1px solid black; */
+}
+
+section h2 {
+    width: 100%;
+    font-size: 50px;
+    margin: 0;
+    font-family: "Lobster", serif;
+    font-weight: bold;
+    color: #180f4a;
+
+}
+
+.services {
+    display: inline-block;
+    margin-top: 5%;
+
+}
+
+.card {
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+    border: 1px solid #ff2978;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card:hover {
+    background-color: #ff2978;
+    padding: 50px;
+    color: #fff;
+}
+
+.card:hover img {
+    display: none;
+}
+
+.hidden-content {
+    display: none;
+
+}
+
+.card:hover .card-content {
+    display: none;
+
+}
+
+.card:hover .hidden-content {
+    display: block;
 }
