@@ -199,3 +199,33 @@ section h2 {
 .card:hover .hidden-content {
     display: block;
 }
+
+footer {
+    margin-top: 100px;
+    height: 400px;
+    background: linear-gradient(180deg, #180f4a, #090422, #000);
+    text-align: center;
+    border-top: 5px solid #ff2978;
+}
+
+.logo-rodape {
+    padding: 100px;
+    color: #fff;
+    font-family: "Lobster", serif;
+}
+
+.logo-rodape p {
+    font-family: "Roboto", serif;
+}
+
+b {
+    color: #fff;
+}
+
+.whatsapp {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    width: 64px;
+    cursor: pointer;
+}
